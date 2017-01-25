@@ -39,7 +39,8 @@ setInterval(function () {
   console.log("==================");
   console.log("|=|  TC/MC: " + clientCount + '/' + maxClientCount);
   console.log("|=|  msgPublished: " + totalPublish);
-  console.log("|=|  msgReceived: " + (msgNumAll));
+  console.log("|=|  msgReceived: " + msgNumAll);
+  console.log("|=|  P/R: " + (totalPublish/msgNumAll));
   var e = (Date.now() - start) / 1000;
   console.log("|=|  msg/sec: " + msgNumAll / e);
   console.log("==================");
