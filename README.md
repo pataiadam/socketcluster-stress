@@ -30,7 +30,7 @@ After few seconds, you should see something like this:
 **TC/MC**: connected clients/max clients  
 **msgPublished**: total number of emitted messages  
 **msgReceived**: total number of received messages  
-**P/R**: emitted/received ratio (should be ~1.0) 
+**P/R**: emitted/received ratio (should be ~1.0)  
 **msg/sec**: received messages/second  
 
 Kill the processes (server, client). Now, try to start with uws engine:
